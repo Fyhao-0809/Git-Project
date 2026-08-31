@@ -1,0 +1,43 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.suo
+*.user
+*.code-workspace
+
+# Logs, temporary files, and caches
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+*.swo
+.cache/
+tmp/
+temp/
+
+# Dependencies and build output
+node_modules/
+vendor/
+dist/
+build/
+coverage/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+
+# Secrets and local environment settings
+.env
+.env.*
+!.env.example
+*.pem
+*.key
